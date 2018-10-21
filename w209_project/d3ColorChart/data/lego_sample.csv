@@ -1,0 +1,100 @@
+inventory_id,part_num,color_id,quantity,is_spare,color_name,color_rgb,color_istrans,part_name,part_cat_id,ivty_version,set_num,set_quantity,set_name,year,theme_id,set_parts_count,theme_name,theme_parent_id,parent_name,part_cat_name
+1,48379c01,72,1,f,Dark Bluish Gray,6C6E68,f,Sports Promo Figure Base with Feet,27,1,7922-1,,McDonald's Sports Set Number 6 - Orange Vest Snowboarder,2004,460,4,Gravity Games,458,Sports,Minifig Accessories
+1,48395,7,1,f,Light Gray,9BA19D,f,Sports Promo Snowboard from McDonald's Sports Set Number 6 Set 7922,27,1,7922-1,,McDonald's Sports Set Number 6 - Orange Vest Snowboarder,2004,460,4,Gravity Games,458,Sports,Minifig Accessories
+1,mcsport6,25,1,f,Orange,FE8A18,f,Sports Promo Figure Head Torso Assembly McDonald's Set 6 (7922),13,1,7922-1,,McDonald's Sports Set Number 6 - Orange Vest Snowboarder,2004,460,4,Gravity Games,458,Sports,Minifigs
+1,paddle,0,1,f,Black,05131D,f,Sports Promo Paddle from McDonald's Sports Sets,27,1,7922-1,,McDonald's Sports Set Number 6 - Orange Vest Snowboarder,2004,460,4,Gravity Games,458,Sports,Minifig Accessories
+3,11816pr0005,78,1,f,Light Flesh,F6D7B3,f,"Minifig Head Modified - Friends - Green Eyes, Pink Lips and Closed Mouth Print",13,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Minifigs
+3,2343,47,1,f,Trans-Clear,FCFCFC,t,Minifig Goblet,27,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Minifig Accessories
+3,3003,29,1,f,Bright Pink,E4ADC8,f,Brick 2 x 2,11,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Bricks
+3,30176,2,1,f,Green,237841,f,Round 1 x 1 - 3 Bamboo Leaves,28,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plants and Animals
+3,3020,15,1,f,White,FFFFFF,f,Plate 2 x 4,14,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates
+3,3022,15,2,f,White,FFFFFF,f,Plate 2 x 2,14,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates
+3,3023,15,1,f,White,FFFFFF,f,Plate 1 x 2,14,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates
+3,30357,29,4,f,Bright Pink,E4ADC8,f,"Plate, Round Corner 3 x 3",21,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates Round and Dishes
+3,3039,15,1,f,White,FFFFFF,f,Slope 45° 2 x 2,3,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Bricks Sloped
+3,3062b,15,1,f,White,FFFFFF,f,Brick Round 1 x 1 Open Stud,20,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Bricks Round and Cones
+3,3068b,29,1,f,Bright Pink,E4ADC8,f,Tile 2 x 2 with Groove,19,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Tiles
+3,3069b,29,2,f,Bright Pink,E4ADC8,f,Tile 1 x 2 with Groove,19,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Tiles
+3,3069b,27,5,f,Lime,BBE90B,f,Tile 1 x 2 with Groove,19,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Tiles
+3,33291,191,3,f,Bright Light Orange,F8BB3D,f,Plate Round 1 x 1 with Flower Edge [4 Petals],28,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plants and Animals
+3,33291,191,1,t,Bright Light Orange,F8BB3D,f,Plate Round 1 x 1 with Flower Edge [4 Petals],28,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plants and Animals
+3,3795,15,1,f,White,FFFFFF,f,Plate 2 x 6,14,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates
+3,3941,27,1,f,Lime,BBE90B,f,Brick Round 2 x 2 with Axle Hole,20,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Bricks Round and Cones
+3,3960,27,1,f,Lime,BBE90B,f,Dish 4 x 4 Inverted [Radar],21,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates Round and Dishes
+3,4032a,70,1,f,Reddish Brown,582A12,f,Plate Round 2 x 2 with Axle Hole Type 1 (+ Opening),21,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates Round and Dishes
+3,4865a,41,3,f,Trans-Light Blue,AEEFEC,t,Panel 1 x 2 x 1 [Square Corners],23,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Panels
+3,6141,27,2,f,Lime,BBE90B,f,Plate Round 1 x 1 with Solid Stud,21,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates Round and Dishes
+3,6141,29,1,f,Bright Pink,E4ADC8,f,Plate Round 1 x 1 with Solid Stud,21,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates Round and Dishes
+3,6141,27,1,t,Lime,BBE90B,f,Plate Round 1 x 1 with Solid Stud,21,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates Round and Dishes
+3,6141,29,1,t,Bright Pink,E4ADC8,f,Plate Round 1 x 1 with Solid Stud,21,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Plates Round and Dishes
+3,63965,15,1,f,White,FFFFFF,f,Bar 6L with Stop Ring,32,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,"Bars, Ladders and Fences"
+3,85080,322,4,f,Medium Azure,36AEBF,f,"Brick, Round Corner 2 x 2 Macaroni with Stud Notch and Reinforced Underside [New Style]",20,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Bricks Round and Cones
+3,92258,0,1,f,Black,05131D,f,"Minifig Hair - Friends - Long Wavy, Partially Tied Back [1 Hole]",13,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Minifigs
+3,92456pr0011c01,78,1,f,Light Flesh,F6D7B3,f,"Torso Friends - Medium Violet Top with Flowers Print, Light Flesh Arms with Hands",13,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Minifigs
+3,92818pr0002c01,26,1,f,Magenta,923978,f,"Friends - Hips and Layered Skirt, Light Flesh Legs and Magenta Shoes Print",13,1,3931-1,,Emma's Splash Pool,2012,494,43,Friends,,,Minifigs
+4,30214,34,1,f,Trans-Green,84B68D,t,Minifig Helmet Round Bubble,27,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Minifig Accessories
+4,3069bp53,0,1,f,Black,05131D,f,Tile  1 x  2 with Mars Orbit Display Print,10,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Tiles Printed
+4,3298pb005,8,1,f,Dark Gray,6D6E5C,f,Slope 33° 3 x 2 with Insectoid Scope Print,3,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Bricks Sloped
+4,3475b,1,2,f,Blue,0055BF,f,"Engine - Smooth, Small 1 x 2 Side Plate [With Axle Holders]",35,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Transportation - Sea and Air
+4,3626bpx175,8,1,f,Dark Gray,6D6E5C,f,"Minifig Head with Silver Hair and Copper Eyepiece Print alien,insectoids,borg,headset [Blocked Open Stud]",13,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Minifigs
+4,3795,0,1,f,Black,05131D,f,Plate 2 x 6,14,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Plates
+4,4589,42,2,f,Trans-Neon Green,F8F184,t,Cone 1 x 1 [No Top Groove],20,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Bricks Round and Cones
+4,4590,1,3,f,Blue,0055BF,f,Plate Special 1 x 4 Offset,9,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Plates Special
+4,4596,0,1,f,Black,05131D,f,Plate Special 1 x 2 with Long Stud Receptacle (Space Wing),9,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Plates Special
+4,4598,8,1,f,Dark Gray,6D6E5C,f,Bracket 3 x 2 - 2 x 2 [aka Space Seat],9,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Plates Special
+4,4740,42,1,f,Trans-Neon Green,F8F184,t,Dish 2 x 2 Inverted [Radar],21,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Plates Round and Dishes
+4,6141,42,1,t,Trans-Neon Green,F8F184,t,Plate Round 1 x 1 with Solid Stud,21,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Plates Round and Dishes
+4,6141,42,1,f,Trans-Neon Green,F8F184,t,Plate Round 1 x 1 with Solid Stud,21,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Plates Round and Dishes
+4,6919,42,2,f,Trans-Neon Green,F8F184,t,Dish 2 x 2 with Angled Bar,21,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Plates Round and Dishes
+4,970x027,0,1,f,Black,05131D,f,Legs and Dark Gray Hips,13,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Minifigs
+4,973pb0037c01,8,1,f,Dark Gray,6D6E5C,f,Torso Space Insectoids Silver X on Green Verniers Print / Green Arms / Black Hands,13,1,6942-1,,Zo Weevil,1999,134,20,Insectoids,126,Space,Minifigs
+15,2360p02,2,1,f,Green,237841,f,Baseplate Road 32 x 32 7-Stud T Intersection with Runway 'V' Narrow Print,1,1,5158-1,,"T-Junction, Circle Plates",1990,454,2,Town,443,Service Packs,Baseplates
+15,2361p02,2,1,f,Green,237841,f,Baseplate 32 x 32 Road 7-Stud Crossroads w/ Runway Wide Print,1,1,5158-1,,"T-Junction, Circle Plates",1990,454,2,Town,443,Service Packs,Baseplates
+16,7049b,15,2,f,White,FFFFFF,f,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",29,1,903-1,,Train Wheels and Couplers,1969,371,10,Supplemental,365,Classic,Wheels and Tyres
+16,737,4,2,f,Red,C91A09,f,Plate Special 2 x 4 with Train Coupler Closed for Hook,9,1,903-1,,Train Wheels and Couplers,1969,371,10,Supplemental,365,Classic,Plates Special
+16,737bc01,4,2,f,Red,C91A09,f,Plate Special 2 x 4 with Train Coupler Open with Hook,9,1,903-1,,Train Wheels and Couplers,1969,371,10,Supplemental,365,Classic,Plates Special
+16,wheel2b,4,4,f,Red,C91A09,f,Train Wheel Spoked for Wagon,29,1,903-1,,Train Wheels and Couplers,1969,371,10,Supplemental,365,Classic,Wheels and Tyres
+17,12708pr01,47,2,f,Trans-Clear,FCFCFC,t,Hemisphere [Bauble Half] with White Dots Print,20,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Bricks Round and Cones
+17,12825,0,4,f,Black,05131D,f,Tile Special 1 x 1 with Clip with Rounded Tips,15,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Tiles Special
+17,2540,0,2,f,Black,05131D,f,Plate Special 1 x 2 Side Handle [Free Ends],9,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Plates Special
+17,298c02,15,2,f,White,FFFFFF,f,Lever Small Base with Black Lever,32,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,"Bars, Ladders and Fences"
+17,3021,0,1,f,Black,05131D,f,Plate 2 x 3,14,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Plates
+17,3021,15,1,f,White,FFFFFF,f,Plate 2 x 3,14,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Plates
+17,3022,1,1,f,Blue,0055BF,f,Plate 2 x 2,14,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Plates
+17,3023,0,1,f,Black,05131D,f,Plate 1 x 2,14,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Plates
+17,3024,15,6,f,White,FFFFFF,f,Plate 1 x 1,14,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Plates
+17,3069b,15,2,f,White,FFFFFF,f,Tile 1 x 2 with Groove,19,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Tiles
+17,3794b,0,3,f,Black,05131D,f,Plate Special 1 x 2 with 1 Stud with Groove (Jumper),9,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Plates Special
+17,44375b,15,1,f,White,FFFFFF,f,Dish 6 x 6 Inverted (Radar) [Solid Studs],21,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Plates Round and Dishes
+17,47905,0,1,f,Black,05131D,f,Brick Special 1 x 1 with Studs on 2 Sides,5,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Bricks Special
+17,49668,0,2,f,Black,05131D,f,Plate Special 1 x 1 with Tooth,9,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Plates Special
+17,52107,0,1,f,Black,05131D,f,Brick Special 1 x 2 with Studs on 2 Sides,5,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Bricks Special
+17,54200,15,1,f,White,FFFFFF,f,Slope 30° 1 x 1 x 2/3 (Cheese Slope),3,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Bricks Sloped
+17,6141,29,1,f,Bright Pink,E4ADC8,f,Plate Round 1 x 1 with Solid Stud,21,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Plates Round and Dishes
+17,98138pr0008,15,2,f,White,FFFFFF,f,Tile Round 1 x 1 with Offset Eye Print,10,1,850950-1,1,Christmas Cat Ornament,2014,228,34,Creator,227,Christmas,Tiles Printed
+19,3626bpx16,14,1,f,Yellow,F2CD37,f,"Minifig Head Male Smile, Black Eyebrows, Short Bangs and Long Hair Print [Blocked Open Stud]",13,1,4444-1,1,Coca-Cola Defender 2,2002,462,4,Soccer,458,Sports,Minifigs
+19,4530,0,1,f,Black,05131D,f,Minifig Hair Female,13,1,4444-1,1,Coca-Cola Defender 2,2002,462,4,Soccer,458,Sports,Minifigs
+19,970c00,0,1,f,Black,05131D,f,Legs and Hips [Complete Assembly],13,1,4444-1,1,Coca-Cola Defender 2,2002,462,4,Soccer,458,Sports,Minifigs
+19,973px173c01,4,1,f,Red,C91A09,f,Torso Coca-Cola Logo with V-neck Shirt and Black Stripe Print / Red Arms / Yellow Hands,13,1,4444-1,1,Coca-Cola Defender 2,2002,462,4,Soccer,458,Sports,Minifigs
+21,3009,7,50,f,Light Gray,9BA19D,f,Brick 1 x 6,11,1,3474-1,,1 x 6 Light Gray Bricks,2000,254,50,Bulk Bricks,,,Bricks
+22,15573,72,1,f,Dark Bluish Gray,6C6E68,f,Plate Special 1 x 2 with 1 Stud with Groove and Inside Stud Holder (Jumper),9,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates Special
+22,2412b,179,3,f,Flat Silver,898788,f,Tile Special 1 x 2 Grille with Bottom Groove,15,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Tiles Special
+22,2654,72,4,f,Dark Bluish Gray,6C6E68,f,Plate Round 2 x 2 with Rounded Bottom [Boat Stud],21,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates Round and Dishes
+22,3020,0,2,f,Black,05131D,f,Plate 2 x 4,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,3022,0,1,f,Black,05131D,f,Plate 2 x 2,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,3023,71,2,f,Light Bluish Gray,A0A5A9,f,Plate 1 x 2,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,3023,46,2,f,Trans-Yellow,F5CD2F,t,Plate 1 x 2,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,3024,0,1,t,Black,05131D,f,Plate 1 x 1,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,3024,0,2,f,Black,05131D,f,Plate 1 x 1,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,3024,46,4,f,Trans-Yellow,F5CD2F,t,Plate 1 x 1,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,3024,46,1,t,Trans-Yellow,F5CD2F,t,Plate 1 x 1,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,3070b,72,1,f,Dark Bluish Gray,6C6E68,f,Tile 1 x 1 with Groove,19,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Tiles
+22,3070b,72,1,t,Dark Bluish Gray,6C6E68,f,Tile 1 x 1 with Groove,19,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Tiles
+22,3666,72,1,f,Dark Bluish Gray,6C6E68,f,Plate 1 x 6,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,3710,0,2,f,Black,05131D,f,Plate 1 x 4,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,3795,71,1,f,Light Bluish Gray,A0A5A9,f,Plate 2 x 6,14,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates
+22,4081b,72,1,f,Dark Bluish Gray,6C6E68,f,Plate Special 1 x 1 with Clip Light [Thick Ring],9,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates Special
+22,41769,72,4,f,Dark Bluish Gray,6C6E68,f,Wedge Plate 4 x 2 Right,49,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates Angled
+22,41770,72,4,f,Dark Bluish Gray,6C6E68,f,Wedge Plate 4 x 2 Left,49,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates Angled
+22,43719,72,1,f,Dark Bluish Gray,6C6E68,f,Wedge Plate 4 x 4 with 2 x 2 Cutout,49,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates Angled
+22,43722,71,2,f,Light Bluish Gray,A0A5A9,f,Wedge Plate 3 x 2 Right,49,1,30277-1,,First Order Star Destroyer,2016,184,56,Star Wars Episode 7,158,Star Wars,Plates Angled

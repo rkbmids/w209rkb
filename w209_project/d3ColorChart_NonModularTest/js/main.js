@@ -67,12 +67,12 @@ d3.csv("data/lego_sample.csv",
   innerHeight = height - margin.top - margin.bottom;
 
   // Update the outer dimensions - modular
-//  svg.merge(svgEnter).attr("width", width)
-//    .attr("height", height);
+ svg.merge(svgEnter).attr("width", width)
+    .attr("height", height);
 
   // Update the inner dimension - modular.
-//  var g = svg.merge(svgEnter).select("g")
-//      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  var g = svg.merge(svgEnter).select("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
   //To get xscale, need range of years
   xScale.rangeRound([0, innerWidth])
@@ -81,14 +81,14 @@ d3.csv("data/lego_sample.csv",
 //  yScale.rangeRound([innerHeight, 0])
   //  .domain([0, data.map(yValue)]);
 
-    g.select(".x.axis")
+    gEnter.select(".x.axis")
         .attr("transform", "translate(0," + innerHeight + ")")
         .call(d3.axisBottom(xScale))
         .append("text")
         .text("Year");
 
 //y-axis not working yet
-    g.select(".y.axis")
+    gEnter.select(".y.axis")
         .call(d3.axisLeft(yScale).ticks(10))
         .append("text")
         .attr("transform", "rotate(-90)")
@@ -104,7 +104,7 @@ d3.csv("data/lego_sample.csv",
     //setting step size and initial position for each block
     //max y will be set based on function eventually
     //max_y = max_yValue(data)
-    max_y = 50
+    max_y = 10
     step_size = innerHeight/max_y;
     console.log(step_size);
     //gets first year in dset
@@ -140,9 +140,7 @@ d3.csv("data/lego_sample.csv",
         .attr("height", step_size)
         //pull color from dataset - not working yet
         .attr("fill", function(d){
-          console.log(d["color_rgb"]);
-          console.log(d3.rgb(d["color_rgb"]));
-          return d3.rgb(d["color_rgb"]);})
+          return d3.rgb("#"+d["color_rgb"]);})
         //removed accessors for mouseover and mouseout and put functions here instead
         .on("mouseover",function(d) {
           var xPos = d3.select(this).attr("x");

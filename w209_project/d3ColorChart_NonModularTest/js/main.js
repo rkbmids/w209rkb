@@ -68,6 +68,13 @@ d3.csv("data/lego_sample.csv",
   //To get xscale, need range of years
   xScale.rangeRound([0, innerWidth])
     .domain(data.map(xValue));
+
+  g.append("text")
+      .attr("transform",
+            "translate(" + (width/2) + " ," +
+                           (innerHeight + margin.bottom) + ")")
+      .style("text-anchor", "middle")
+      .text("Year");
   //Not sure how to define yScale - range and domain - may need to for axis
   yScale.rangeRound([innerHeight, 0])
     .domain([0, max_yValue]);
@@ -78,15 +85,17 @@ d3.csv("data/lego_sample.csv",
         .append("text")
         .text("Year");
 
-//y-axis not working yet
     gEnter.select(".y.axis")
-        .call(d3.axisLeft(yScale).ticks(10))
-        .append("text")
-        .attr("transform", "rotate(-90)")
-        .attr("y", 6)
-        .attr("dy", "0.71em")
-        .attr("text-anchor", "end")
-        .text("Number of Pieces");
+        .call(d3.axisLeft(yScale).ticks(10));
+    //y-axis label
+    g.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - margin.left)
+            .attr("x",0 - (height / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Number of Pieces");
+
 
 
     var bars = g.selectAll(".bar")
@@ -144,10 +153,11 @@ d3.csv("data/lego_sample.csv",
             .attr("text-anchor", "middle")
             .attr("font-family", "sans-serif")
             .attr("font-size", "11px")
+            .attr("font-weight", "bold")
             .attr("background-color", "white")
             .attr("fill", "black")
             .text("Part: " + d['part_name']
-              + "\n\nSet: " + d['set_name']);})
+              + "<br><br>Set: " + d['set_name']);})
         .on("mouseout", function(){
           d3.select("#tooltip").remove();
         });

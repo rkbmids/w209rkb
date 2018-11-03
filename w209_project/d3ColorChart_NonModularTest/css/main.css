@@ -15,7 +15,18 @@
   padding: 4px;
 }
 
-
+div.tooltip {
+    position: center;
+    text-align: center;
+    width: 200px;
+    height: 28px;
+    padding: 2px;
+    font: 8px sans-serif;
+    background: white;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
 /*commenting out bar formatting
 .barChart .bar {
   fill: steelblue;

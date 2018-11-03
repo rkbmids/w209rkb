@@ -96,7 +96,9 @@ d3.csv("data/lego_sample.csv",
             .style("text-anchor", "middle")
             .text("Number of Pieces");
 
-
+    var div = d3.select("#colorChart").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
 
     var bars = g.selectAll(".bar")
       .data(function (d) { return d; });
@@ -106,12 +108,10 @@ d3.csv("data/lego_sample.csv",
     //max_y = max_yValue(data)
     max_y = max_yValue
     step_size = innerHeight/max_y;
-    console.log(step_size);
+
     //gets first year in dset
     cur_year = +data[1]['year'];
-    console.log(cur_year);
     pos = 0;
-    console.log(pos);
 
     bars.enter().append("rect")
         .attr("class", "bar")
@@ -144,21 +144,16 @@ d3.csv("data/lego_sample.csv",
         .attr("stroke", "black")
         .attr("stroke-width",1)
         .on("mouseover",function(d) {
-          var xPos = d3.select(this).attr("x");
-          var yPos = d3.select(this).attr("y");
-          g.append("text")
-            .attr("id", "tooltip")
-            .attr("x", xPos)
-            .attr("y", yPos)
-            .attr("text-anchor", "middle")
-            .attr("font-family", "sans-serif")
-            .attr("font-size", "11px")
-            .attr("font-weight", "bold")
-            .attr("background-color", "white")
-            .attr("fill", "black")
-            .text("Part: " + d['part_name']
-              + "<br><br>Set: " + d['set_name']);})
+          div.transition()
+            .duration(200)
+            .style("opacity", .9);
+          div.html("<b>Set:</b> " + d['set_name']
+              + "<br/><b>Part:</b> " + d['part_name'])
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");})
         .on("mouseout", function(){
-          d3.select("#tooltip").remove();
+          div.transition()
+            .duration(500)
+            .style("opacity", 0);
         });
 })

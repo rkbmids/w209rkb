@@ -41,16 +41,7 @@ d3.csv("data/lego_sample.csv",
         xScale = d3.scaleBand().padding(0.1),
         //May need to change yScale
         yScale = d3.scaleLinear(),
-        //function to calculate max y for height - not working yet
-        max_yValue = function(d) { cf = crossfilter(d);
-          var dimensionYear = cf.dimension(function(d){
-              return d['year'];
-            });
-          var yearcount = dimensionYear.group().reduceCount(function(d){
-              return d['part_num'];
-            });
-          console.log(yearcount);
-          return yearcount.top(1).value;};
+        max_yValue = csData.years.top(1)[0].value;
   //Create color chart - would be inner function w/in colorchart function
   // Select the svg element, if it exists.
 
@@ -78,8 +69,8 @@ d3.csv("data/lego_sample.csv",
   xScale.rangeRound([0, innerWidth])
     .domain(data.map(xValue));
   //Not sure how to define yScale - range and domain - may need to for axis
-//  yScale.rangeRound([innerHeight, 0])
-  //  .domain([0, data.map(yValue)]);
+  yScale.rangeRound([innerHeight, 0])
+    .domain([0, max_yValue]);
 
     gEnter.select(".x.axis")
         .attr("transform", "translate(0," + innerHeight + ")")
@@ -104,7 +95,7 @@ d3.csv("data/lego_sample.csv",
     //setting step size and initial position for each block
     //max y will be set based on function eventually
     //max_y = max_yValue(data)
-    max_y = 10
+    max_y = max_yValue
     step_size = innerHeight/max_y;
     console.log(step_size);
     //gets first year in dset
@@ -119,11 +110,11 @@ d3.csv("data/lego_sample.csv",
         //was using x-accessor function in example, flattened here
         .attr("x", function(d){return xScale(xValue(d));})
         .attr("y", function(d){
-          //console.log(d['year']);
+          //consolse.log(d['year']);
           //console.log(cur_year);
           if (d['year']>cur_year){
             //console.log("option1");
-            pos=0;
+            pos=step_size;
             cur_year = +d['year'];
           }else{
             //console.log("option2");
@@ -133,7 +124,6 @@ d3.csv("data/lego_sample.csv",
         //  console.log(innerHeight);
         //  console.log(step_size);
       //    console.log(cur_year);
-          console.log(innerHeight-pos);
           return innerHeight-pos; })
         .attr("width", xScale.bandwidth())
         //height for each rect is same
@@ -142,6 +132,8 @@ d3.csv("data/lego_sample.csv",
         .attr("fill", function(d){
           return d3.rgb("#"+d["color_rgb"]);})
         //removed accessors for mouseover and mouseout and put functions here instead
+        .attr("stroke", "black")
+        .attr("stroke-width",1)
         .on("mouseover",function(d) {
           var xPos = d3.select(this).attr("x");
           var yPos = d3.select(this).attr("y");
@@ -152,10 +144,10 @@ d3.csv("data/lego_sample.csv",
             .attr("text-anchor", "middle")
             .attr("font-family", "sans-serif")
             .attr("font-size", "11px")
-            .attr("font-weight", "bold")
+            .attr("background-color", "white")
             .attr("fill", "black")
             .text("Part: " + d['part_name']
-              + "\nSet: " + d['set_name']);})
+              + "\n\nSet: " + d['set_name']);})
         .on("mouseout", function(){
           d3.select("#tooltip").remove();
         });
